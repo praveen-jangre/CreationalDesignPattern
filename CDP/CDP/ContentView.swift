@@ -16,6 +16,25 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .onAppear {
+            //Singleton Implementation
+            implementSingleton()
+            
+            //Prototype design pattern implementation
+            implementPrototypeAsStruct()
+            implementPrototypeForClassType()
+            
+            
+            // Builder design pattern implementation
+            implementBuilderDesignPattern()
+            
+            
+            // Factory design pattern implementation
+            implementingFactoryPattern()
+            
+            // Abstract Factory design pattern implementation
+            implementationOfAbstractFactoryPattern()
+        }
     }
 }
 
